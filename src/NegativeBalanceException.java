@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 // Julia Kolomiitseva and Will Drescher
+
 // This is a custom exception that gets thrown when a withdrawal
 // would cause a negative balance. It has two constructors:
 // one general error message, and one that includes how much
