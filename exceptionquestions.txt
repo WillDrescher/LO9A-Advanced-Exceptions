@@ -1,8 +1,10 @@
 3 good practices:
 
-1-
+1. One good practice is to catch specific exceptions instead of using a general `Exception` catch block. This makes the code clearer and prevents accidentally hiding other errors.
 
-2-
+2. Another good practice is not to leave catch blocks empty. If an exception happens, we should at least print a message or log it so we know something went wrong.
 
-3-
+3. It is also important to use exceptions only for truly exceptional situations, not for normal program flow. This keeps the code cleaner and easier to understand.
+
+
 

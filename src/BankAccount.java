@@ -1,4 +1,4 @@
-// Julia Kolomiitseva
+// Julia Kolomiitseva and Will Drescher
 // This BankAccount class stores a balance and allows withdrawals.
 // If someone tries to withdraw more than what’s available,
 // it throws a custom NegativeBalanceException.
