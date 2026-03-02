@@ -1,3 +1,11 @@
+// Julia Kolomiitseva
+// This BankAccount class stores a balance and allows withdrawals.
+// If someone tries to withdraw more than what’s available,
+// it throws a custom NegativeBalanceException.
+// The withdraw method passes how much the amount exceeds the balance,
+// while quickWithdraw throws a more general exception.
+// Both methods use a throws clause so the error is handled elsewhere.
+
 public class BankAccount {
 
     private double balance;
@@ -8,7 +16,7 @@ public class BankAccount {
 
     public void withdraw(double amount) throws NegativeBalanceException {
         if (amount > balance) {
-            double newBalance = balance - amount; // this will be negative
+            double newBalance = amount - balance; // this will be negative
             throw new NegativeBalanceException(newBalance);
         } else {
             balance -= amount;

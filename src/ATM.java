@@ -1,3 +1,10 @@
+// Will Drescher and Julia Kolomiitseva
+// This ATM class tests our BankAccount.
+// It creates an account with $500 and tries to withdraw $600 twice.
+// Each attempt is inside a try-catch to show how the custom
+// NegativeBalanceException gets thrown and handled.
+// main just runs the test.
+
 public class ATM {
 
     private BankAccount account;
